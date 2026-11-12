@@ -1,0 +1,3 @@
+# Bước dữ liệu (chạy được không cần GPU)
+pillow
+openpyxl   # chỉ để inspect_dataset.py đọc tệp .xlsx nếu RoCoLe có

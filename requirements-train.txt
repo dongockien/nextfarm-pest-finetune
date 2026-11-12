@@ -1,0 +1,6 @@
+# Bước train. CÀI THEO README (torch phải cài trước, đúng index CUDA), không pip install -r trực tiếp.
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
+#   pip install unsloth
+# Máy này: driver báo CUDA 13.3, nên dùng cu130 (theo trang cài đặt Windows của Unsloth).
+# Sau khi cài, ghi phiên bản đã dùng:  pip freeze > outputs/meta/pip-freeze.txt
+unsloth
