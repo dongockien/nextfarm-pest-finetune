@@ -1,0 +1,35 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training data
+data/
+
+# Model outputs and checkpoints
+outputs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Compressed datasets
+*.zip
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
