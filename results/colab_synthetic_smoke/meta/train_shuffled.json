@@ -1,0 +1,167 @@
+{
+  "model": "unsloth/Qwen2.5-VL-3B-Instruct-bnb-4bit",
+  "steps": 30,
+  "train_loss": 1.765423828487595,
+  "seconds": 174.6,
+  "peak_vram_gb": 3.08,
+  "train_curve": [
+    [
+      1,
+      4.984
+    ],
+    [
+      2,
+      4.931
+    ],
+    [
+      3,
+      4.9797
+    ],
+    [
+      4,
+      4.9824
+    ],
+    [
+      5,
+      4.7711
+    ],
+    [
+      6,
+      4.1535
+    ],
+    [
+      7,
+      3.492
+    ],
+    [
+      8,
+      2.9891
+    ],
+    [
+      9,
+      2.6364
+    ],
+    [
+      10,
+      2.3078
+    ],
+    [
+      11,
+      2.0327
+    ],
+    [
+      12,
+      1.7641
+    ],
+    [
+      13,
+      1.5527
+    ],
+    [
+      14,
+      1.3148
+    ],
+    [
+      15,
+      1.1567
+    ],
+    [
+      16,
+      0.9526
+    ],
+    [
+      17,
+      0.8102
+    ],
+    [
+      18,
+      0.6879
+    ],
+    [
+      19,
+      0.5258
+    ],
+    [
+      20,
+      0.4291
+    ],
+    [
+      21,
+      0.3516
+    ],
+    [
+      22,
+      0.2846
+    ],
+    [
+      23,
+      0.2317
+    ],
+    [
+      24,
+      0.1646
+    ],
+    [
+      25,
+      0.1421
+    ],
+    [
+      26,
+      0.1066
+    ],
+    [
+      27,
+      0.0716
+    ],
+    [
+      28,
+      0.0554
+    ],
+    [
+      29,
+      0.0555
+    ],
+    [
+      30,
+      0.0455
+    ]
+  ],
+  "val_curve": [
+    [
+      10,
+      2.0283
+    ],
+    [
+      20,
+      0.3519
+    ],
+    [
+      30,
+      0.036
+    ]
+  ],
+  "shuffled_labels": true,
+  "args": {
+    "model": "unsloth/Qwen2.5-VL-3B-Instruct-bnb-4bit",
+    "splits": "/content/data/splits",
+    "raw": "/content/data/raw",
+    "ood": "/content/data/ood.jsonl",
+    "out": "/content/outputs",
+    "img_size": 336,
+    "max_steps": 30,
+    "epochs": 1.0,
+    "lr": 0.0002,
+    "batch": 1,
+    "accum": 4,
+    "r": 16,
+    "seed": 3407,
+    "max_new_tokens": 96,
+    "limit_test": 0,
+    "eval_steps": 10,
+    "no_vision_layers": false,
+    "skip_baseline": false,
+    "skip_train": false,
+    "skip_reload": false,
+    "shuffle_labels": true
+  }
+}

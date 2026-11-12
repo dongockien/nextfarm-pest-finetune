@@ -1,0 +1,35 @@
+{
+  "schema": "prod",
+  "seed": 3407,
+  "so_nhom": 250,
+  "canh_bao": [],
+  "tap": {
+    "train": {
+      "anh": 99,
+      "nhom": 78,
+      "theo_nhan": {
+        "coffee_leaf_rust": 33,
+        "healthy_leaf": 33,
+        "red_spider_mite": 33
+      }
+    },
+    "val": {
+      "anh": 21,
+      "nhom": 17,
+      "theo_nhan": {
+        "healthy_leaf": 7,
+        "red_spider_mite": 7,
+        "coffee_leaf_rust": 7
+      }
+    },
+    "test": {
+      "anh": 21,
+      "nhom": 18,
+      "theo_nhan": {
+        "coffee_leaf_rust": 7,
+        "red_spider_mite": 7,
+        "healthy_leaf": 7
+      }
+    }
+  }
+}
