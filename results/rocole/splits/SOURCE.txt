@@ -1,0 +1,44 @@
+Dataset: RoCoLe: A robusta coffee leaf images dataset
+Version: 2
+
+Authors:
+- Jorge Parraga-Alava
+- Kevin Cusme
+- Angélica Loor
+- Esneider Santander
+
+Published: 17 May 2019
+
+Dataset DOI:
+https://doi.org/10.17632/c5yvn32dzg.2
+
+Dataset page:
+https://data.mendeley.com/datasets/c5yvn32dzg/2
+
+License:
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+License URL:
+https://creativecommons.org/licenses/by/4.0/
+
+Related publication:
+Parraga-Alava, J., Cusme, K., Loor, A., & Santander, E. (2019).
+RoCoLe: A robusta coffee leaf images dataset for evaluation of
+machine learning based methods in plant diseases recognition.
+Data in Brief, 25, 104414.
+
+Article DOI:
+https://doi.org/10.1016/j.dib.2019.104414
+
+Accessed:
+2026-11-12
+
+Project-side processing:
+This project creates its own dataset split manifests, group identifiers,
+prompt/target records and evaluation metadata.
+
+Original image files are not redistributed in this repository.
+The manifests reference relative image paths.
+
+The OOD samples are project-generated synthetic samples,
+not original RoCoLe images.
